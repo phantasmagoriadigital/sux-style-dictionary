@@ -1,0 +1,18 @@
+{
+    "color": {
+        "red": {
+             "value": "#FF0000"
+         },
+         "blue": {
+            "value": "#0000FF"
+        }
+    },
+
+    "button": {
+        "border": {
+            "color": {
+                "value": "{color.blue.value}"
+            }
+        }
+    }
+ }
