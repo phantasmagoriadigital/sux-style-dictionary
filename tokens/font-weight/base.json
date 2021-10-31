@@ -1,0 +1,16 @@
+{
+  "font-weight": {
+    "SemiBold": {
+      "value": "SemiBold"
+    },
+    "Regular": {
+      "value": "Regular"
+    },
+    "Light": {
+      "value": "Light"
+    },
+    "Bold": {
+      "value": "Bold"
+    }
+  }
+}

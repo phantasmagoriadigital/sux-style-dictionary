@@ -1,0 +1,10 @@
+{
+  "font-family": {
+    "Primary": {
+      "value": "IBM Plex Sans"
+    },
+    "Secondary": {
+      "value": "Source Sans Pro"
+    }
+  }
+}

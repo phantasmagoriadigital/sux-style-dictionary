@@ -1,0 +1,28 @@
+{
+  "border-radius": {
+    "0": {
+      "value": "0px"
+    },
+    "1": {
+      "value": "1px"
+    },
+    "2": {
+      "value": "2px"
+    },
+    "3": {
+      "value": "3px"
+    },
+    "4": {
+      "value": "4px"
+    },
+    "5": {
+      "value": "8px"
+    },
+    "6": {
+      "value": "24px"
+    },
+    "7": {
+      "value": "32px"
+    }
+  }
+}
