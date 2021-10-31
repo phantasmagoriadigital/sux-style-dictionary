@@ -1,9 +1,9 @@
 {
   "font-family": {
-    "Primary": {
+    "primary": {
       "value": "IBM Plex Sans"
     },
-    "Secondary": {
+    "secondary": {
       "value": "Source Sans Pro"
     }
   }

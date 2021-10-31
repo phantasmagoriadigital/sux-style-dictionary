@@ -1,16 +1,16 @@
 {
   "font-weight": {
-    "SemiBold": {
-      "value": "SemiBold"
+    "semiBold": {
+      "value": "600"
     },
-    "Regular": {
-      "value": "Regular"
+    "regular": {
+      "value": "400"
     },
-    "Light": {
-      "value": "Light"
+    "light": {
+      "value": "300"
     },
-    "Bold": {
-      "value": "Bold"
+    "bold": {
+      "value": "700"
     }
   }
 }

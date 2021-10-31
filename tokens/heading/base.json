@@ -1,0 +1,40 @@
+{
+  "heading": {
+    "primary": {
+      "font-family": { "value": "{font-family.primary.value}" }
+    },
+    "secondary": {
+      "font-family": { "value": "{font-family.secondary.value}" }
+    },
+    "xxl": {
+      "text-size": { "value": "{font-size.24.value}" }
+    },
+    "xl": {
+      "text-size": { "value": "{font-size.20.value}" }
+    },
+    "l": {
+      "text-size": { "value": "{font-size.17.value}" }
+    },
+    "m": {
+      "text-size": { "value": "{font-size.12.value}" }
+    },
+    "s": {
+      "text-size": { "value": "{font-size.10.value}" }
+    },
+    "xs": {
+      "text-size": { "value": "{font-size.8.value}" }
+    },
+    "light": {
+      "font-weight": { "value": "{font-weight.light.value}" }
+    },
+    "regular": {
+      "font-weight": { "value": "{font-weight.regular.value}" }
+    },
+    "semiBold": {
+      "font-weight": { "value": "{font-weight.semiBold.value}" }
+    },
+    "bold": {
+      "font-weight": { "value": "{font-weight.bold.value}" }
+    }
+  }
+}

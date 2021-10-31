@@ -2,8 +2,8 @@
   "button": {
     "border-radius": { "value": "{border-radius.4.value}" },
     "border-width": { "value": "{border-width.1.value}" },
-    "font-family": { "value": "{font-family.Primary.value}" },
-    "font-weight": { "value": "{font-weight.Bold.value}" },
+    "font-family": { "value": "{font-family.primary.value}" },
+    "font-weight": { "value": "{font-weight.bold.value}" },
 
     "cta": {
       "background-color": { "value": "{color.primary.100.value}" },
