@@ -2,7 +2,7 @@
   "button": {
     "border-radius": { "value": "{border-radius.4.value}" },
     "border-width": { "value": "{border-width.1.value}" },
-    "font-family": { "value": "{font-family.primary.value}" },
+    "font-family": { "value": "{font-family.serif.value}" },
     "font-weight": { "value": "{font-weight.bold.value}" },
 
     "cta": {

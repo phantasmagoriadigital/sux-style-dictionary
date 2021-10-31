@@ -1,10 +1,13 @@
 {
   "heading": {
-    "primary": {
-      "font-family": { "value": "{font-family.primary.value}" }
+    "serif": {
+      "font-family": { "value": "{font-family.serif.value}" }
     },
-    "secondary": {
-      "font-family": { "value": "{font-family.secondary.value}" }
+    "sans-serif": {
+      "font-family": { "value": "{font-family.sans-serif.value}" }
+    },
+    "mono": {
+      "font-family": { "value": "{font-family.mono.value}" }
     },
     "xxl": {
       "text-size": { "value": "{font-size.24.value}" }

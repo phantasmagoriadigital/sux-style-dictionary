@@ -1,10 +1,13 @@
 {
   "font-family": {
-    "primary": {
+    "serif": {
+      "value": "IBM Plex Serif"
+    },
+    "sans-serif": {
       "value": "IBM Plex Sans"
     },
-    "secondary": {
-      "value": "Source Sans Pro"
+    "mono": {
+      "value": "IBM Plex Mono"
     }
   }
 }
