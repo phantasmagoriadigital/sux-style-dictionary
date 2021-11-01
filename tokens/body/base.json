@@ -29,6 +29,9 @@
     },
     "xs": {
       "text-size": { "value": "{font-size.2.value}" }
-    }
+    },
+    "line-height": { "value": "{line-height.2.value}" },
+    "strong": { "value": "{font-weight.bold.value}" },
+    "emphasized": { "value": "{font-style.italic.value}" }
   }
 }

@@ -26,6 +26,7 @@
     },
     "regular": {
       "font-weight": { "value": "{font-weight.regular.value}" }
-    }
+    },
+    "line-height": { "value": "{line-height.1.value}" }
   }
 }

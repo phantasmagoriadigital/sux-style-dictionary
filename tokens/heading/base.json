@@ -38,6 +38,7 @@
     },
     "bold": {
       "font-weight": { "value": "{font-weight.bold.value}" }
-    }
+    },
+    "line-height": { "value": "{line-height.1.value}" }
   }
 }
