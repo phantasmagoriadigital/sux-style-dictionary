@@ -1,0 +1,34 @@
+{
+  "body": {
+    "serif": {
+      "font-family": { "value": "{font-family.serif.value}" }
+    },
+    "sans-serif": {
+      "font-family": { "value": "{font-family.sans-serif.value}" }
+    },
+    "mono": {
+      "font-family": { "value": "{font-family.mono.value}" }
+    },
+    "xxxl": {
+      "text-size": { "value": "{font-size.8.value}" }
+    },
+    "xxl": {
+      "text-size": { "value": "{font-size.7.value}" }
+    },
+    "xl": {
+      "text-size": { "value": "{font-size.6.value}" }
+    },
+    "l": {
+      "text-size": { "value": "{font-size.5.value}" }
+    },
+    "m": {
+      "text-size": { "value": "{font-size.4.value}" }
+    },
+    "s": {
+      "text-size": { "value": "{font-size.3.value}" }
+    },
+    "xs": {
+      "text-size": { "value": "{font-size.2.value}" }
+    }
+  }
+}
