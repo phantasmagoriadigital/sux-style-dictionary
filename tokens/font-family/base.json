@@ -1,13 +1,13 @@
 {
   "font-family": {
     "serif": {
-      "value": "IBM Plex Serif"
+      "value": "'IBM Plex Serif', serif"
     },
     "sans-serif": {
-      "value": "IBM Plex Sans"
+      "value": "'IBM Plex Sans', sans-serif"
     },
     "mono": {
-      "value": "IBM Plex Mono"
+      "value": "'IBM Plex Mono', monospace"
     }
   }
 }
