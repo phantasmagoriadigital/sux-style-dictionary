@@ -1,0 +1,51 @@
+{
+  "tag": {
+    "font-family": { "value": "{font-family.sans-serif.value}" },
+    "font-weight": { "value": "{font-weight.regular.value}" },
+    "text-color": { "value": "{color.white.value}" },
+    "border-radius": { "value": "{border-radius.2.value}" },
+    "info": {
+      "background-color": { "value": "{color.status.info.value}" }
+    },
+    "success": {
+      "background-color": { "value": "{color.status.success.value}" }
+    },
+    "error": {
+      "background-color": { "value": "{color.status.error.value}" }
+    },
+    "warning": {
+      "background-color": { "value": "{color.status.warning.value}" }
+    },
+    "neutral": {
+      "background-color": { "value": "{color.status.neutral.value}" }
+    },
+    "small": {
+      "text-size": { "value": "{font-size.2.value}" },
+      "padding-top": { "value": "{space.75.value}" },
+      "padding-right": { "value": "{space.150.value}" },
+      "padding-bottom": { "value": "{space.75.value}" },
+      "padding-left": { "value": "{space.150.value}" }
+    },
+    "medium": {
+      "text-size": { "value": "{font-size.3.value}" },
+      "padding-top": { "value": "{space.100.value}" },
+      "padding-right": { "value": "{space.200.value}" },
+      "padding-bottom": { "value": "{space.100.value}" },
+      "padding-left": { "value": "{space.200.value}" }
+    },
+    "large": {
+      "text-size": { "value": "{font-size.4.value}" },
+      "padding-top": { "value": "{space.100.value}" },
+      "padding-right": { "value": "{space.200.value}" },
+      "padding-bottom": { "value": "{space.100.value}" },
+      "padding-left": { "value": "{space.200.value}" }
+    },
+    "extra-large": {
+      "text-size": { "value": "{font-size.5.value}" },
+      "padding-top": { "value": "{space.100.value}" },
+      "padding-right": { "value": "{space.200.value}" },
+      "padding-bottom": { "value": "{space.100.value}" },
+      "padding-left": { "value": "{space.200.value}" }
+    }
+  }
+}
