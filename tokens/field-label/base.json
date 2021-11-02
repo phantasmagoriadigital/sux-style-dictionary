@@ -1,0 +1,24 @@
+{
+  "field-label": {
+    "font-family": { "value": "{font-family.sans-serif.value}" },
+    "text-color": { "value": "{color.neutral.900.value}" },
+    "margin-bottom": {
+      "value": "{space.75.value}"
+    },
+    "small": {
+      "font-size": { "value": "{font-size.2.value}" }
+    },
+    "medium": {
+      "font-size": { "value": "{font-size.2.value}" }
+    },
+    "large": {
+      "font-size": { "value": "{font-size.3.value}" }
+    },
+    "extra-large": {
+      "font-size": { "value": "{font-size.4.value}" }
+    },
+    "disabled": {
+      "text-color": { "value": "{color.neutral.500.value}" }
+    }
+  }
+}
