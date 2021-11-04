@@ -1,6 +1,20 @@
 const StyleDictionary = require("style-dictionary");
 const tokens = require("./tokens");
 
+// Transform custom transform for spacing & border-width
+StyleDictionary.registerTransform({
+  type: `value`,
+  transitive: true,
+  name: `space/px`,
+  matcher: (token) => {
+    return token.attributes.category === `spacing` || token.attributes.category === `border-width`;
+  },
+  transformer: (token) => {
+    return `${token.original.value}px`;
+  }
+});
+
+
 /**
  * Tokens output files are generated in a file per category / component.
  */
@@ -34,61 +48,27 @@ module.exports = {
   },
   source: ["tokens/**/*.@(json|js)"],
   platforms: {
-    // "esm/category": {
-    //   buildPath: "build/js/esm/",
-    //   transforms: ["attribute/cti", "name/cti/camel", "size/px", "color/hex"],
-    //   files: tokens.map((tokenCategory) => ({
-    //     destination: `${tokenCategory}.js`,
-    //     format: "javascript/es6",
-    //     filter: {
-    //       attributes: {
-    //         category: tokenCategory,
-    //       },
-    //     },
-    //   })),
-    // },
-    // "esm/index": {
-    //   buildPath: "build/js/esm/",
-    //   transforms: ["attribute/cti", "name/cti/camel", "size/px", "color/hex"],
-    //   files: [
-    //     {
-    //       destination: `index.js`,
-    //       format: "javascript/es6",
-    //     },
-    //   ],
-    // },
-    // "cjs/category": {
-    //   buildPath: "build/js/cjs/",
-    //   transforms: ["attribute/cti", "name/cti/camel", "size/px", "color/hex"],
-    //   files: tokens.map((tokenCategory) => ({
-    //     destination: `${tokenCategory}.js`,
-    //     format: "custom/cjsmodule",
-    //     filter: {
-    //       attributes: {
-    //         category: tokenCategory,
-    //       },
-    //     },
-    //   })),
-    // },
-    // "cjs/index": {
-    //   buildPath: "build/js/cjs/",
-    //   transforms: ["attribute/cti", "name/cti/camel", "size/px", "color/hex"],
-    //   files: [
-    //     {
-    //       destination: `index.js`,
-    //       format: "custom/cjsmodule",
-    //     },
-    //   ],
-    // },
-
-    // Web output in scss format
+   
     scss: {
-      transformGroup: "scss",
-      buildPath: `../components/src/assets/tokens/base/`,
+      transforms: ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/px", "space/px", "color/css"],
+      buildPath: `build/scss/`,
       files: [
         {
-          destination: `tokens.scss`,
+          destination: `/all/tokens.scss`,
           format: "scss/variables",
+          options: {
+            outputReferences: true, // new setting, if true will use variable references
+          },
+        },
+      ],
+    },
+    css: {
+      transforms: ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/px", "space/px", "color/css"],
+      buildPath: `build/css/`,
+      files: [
+        {
+          destination: `all/tokens.css`,
+          format: "css/variables",
           options: {
             outputReferences: true, // new setting, if true will use variable references
           },
@@ -97,8 +77,8 @@ module.exports = {
     },
     // Web output in scss partialformat
     "scss/category": {
-      transformGroup: "scss",
-      buildPath: `../components/src/assets/tokens/components/`,
+      transforms: ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/px", "space/px", "color/css"],
+      buildPath: `build/components/`,
       files: tokens.map((tokenCategory) => ({
         destination: `_${tokenCategory}.scss`,
         format: "scss/variables",
@@ -112,6 +92,19 @@ module.exports = {
         },
       })),
     },
+    // "cjs/category": {
+    //   buildPath: "build/js3/",
+    //   transforms: ["size/px", "color/hex"],
+    //   files: [
+    //         {
+    //           destination: `allTokens.json`,
+    //           format: "json",
+    //           options: {
+    //             outputReferences: true, // new setting, if true will use variable references
+    //           },
+    //         },
+    //       ],
+    // },
   },
 };
 
