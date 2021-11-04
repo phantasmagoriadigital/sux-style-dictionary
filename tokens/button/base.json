@@ -1,6 +1,6 @@
 {
   "button": {
-    "border-radius": { "value": "{border-radius.4.value}" },
+    "border-radius": { "value": "{border-radius.4.value}", "type": "borderRadius" },
     "border-width": { "value": "{border-width.1.value}" },
     "font-family": { "value": "{font-family.serif.value}" },
     "font-weight": { "value": "{font-weight.bold.value}" },
@@ -41,31 +41,31 @@
     },
     "small": {
       "text-size": { "value": "{font-size.3.value}" },
-      "padding-left": { "value": "{space.200.value}" },
-      "padding-right": { "value": "{space.200.value}" },
-      "padding-top": { "value": "{space.100.value}" },
-      "padding-bottom": { "value": "{space.100.value}" }
+      "padding-left": { "value": "{spacing.200.value}" },
+      "padding-right": { "value": "{spacing.200.value}" },
+      "padding-top": { "value": "{spacing.100.value}" },
+      "padding-bottom": { "value": "{spacing.100.value}" }
     },
     "medium": {
       "text-size": { "value": "{font-size.4.value}" },
-      "padding-left": { "value": "{space.200.value}" },
-      "padding-right": { "value": "{space.200.value}" },
-      "padding-top": { "value": "{space.150.value}" },
-      "padding-bottom": { "value": "{space.150.value}" }
+      "padding-left": { "value": "{spacing.200.value}" },
+      "padding-right": { "value": "{spacing.200.value}" },
+      "padding-top": { "value": "{spacing.150.value}" },
+      "padding-bottom": { "value": "{spacing.150.value}" }
     },
     "large": {
       "text-size": { "value": "{font-size.5.value}" },
-      "padding-left": { "value": "{space.200.value}" },
-      "padding-right": { "value": "{space.200.value}" },
-      "padding-top": { "value": "{space.200.value}" },
-      "padding-bottom": { "value": "{space.200.value}" }
+      "padding-left": { "value": "{spacing.200.value}" },
+      "padding-right": { "value": "{spacing.200.value}" },
+      "padding-top": { "value": "{spacing.200.value}" },
+      "padding-bottom": { "value": "{spacing.200.value}" }
     },
     "extra-large": {
       "text-size": { "value": "{font-size.6.value}" },
-      "padding-left": { "value": "{space.200.value}" },
-      "padding-right": { "value": "{space.200.value}" },
-      "padding-top": { "value": "{space.250.value}" },
-      "padding-bottom": { "value": "{space.250.value}" }
+      "padding-left": { "value": "{spacing.200.value}" },
+      "padding-right": { "value": "{spacing.200.value}" },
+      "padding-top": { "value": "{spacing.250.value}" },
+      "padding-bottom": { "value": "{spacing.250.value}" }
     }
   }
 }

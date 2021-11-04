@@ -1,6 +1,6 @@
 {
   "line-height": {
-    "1": { "value": "130%" },
-    "2": { "value": "150%" }
+    "1": { "value": "130%", "type": "lineHeights" },
+    "2": { "value": "150%", "type": "lineHeights" }
   }
 }

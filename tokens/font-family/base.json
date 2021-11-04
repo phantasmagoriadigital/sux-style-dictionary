@@ -1,13 +1,16 @@
 {
   "font-family": {
     "serif": {
-      "value": "'IBM Plex Serif', serif"
+      "value": "'IBM Plex Serif', serif",
+      "type": "fontFamilies"
     },
     "sans-serif": {
-      "value": "'IBM Plex Sans', sans-serif"
+      "value": "'IBM Plex Sans', sans-serif",
+      "type": "fontFamilies"
     },
     "mono": {
-      "value": "'IBM Plex Mono', monospace"
+      "value": "'IBM Plex Mono', monospace",
+      "type": "fontFamilies"
     }
   }
 }
