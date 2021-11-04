@@ -4,13 +4,15 @@
   "description": "",
   "main": "build.js",
   "scripts": {
-    "build": "node_modules/.bin/style-dictionary build",
+    "build": "style-dictionary build",
+    "build-figma-tokens": "node figma-tokens/generate-figma-tokens.js      ",
     "clean": "rm -rf build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "Apache-2.0",
   "devDependencies": {
-    "style-dictionary": "3.0.3"
+    "style-dictionary": "3.0.3",
+    "token-transformer": "^0.0.13"
   }
 }
