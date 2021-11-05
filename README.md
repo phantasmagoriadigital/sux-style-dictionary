@@ -2,6 +2,11 @@
 
 Style Dictionary is a build tool to generate design tokens across platforms and for use in Figma.
 
+These tokens are part of the Substrate Design System:
+- [Storybook](https://sb.nextds.design)
+- [Design System Docs](https://docs.nextds.design)
+- [Stencil Web Components Git Repo](https://github.com/phantasmagoriadigital/components)
+
 ## Automatically generate separate build files matching categories and components
 
 This config of Style Dictionary generates a 1:1 relationship between build files and token categories.
