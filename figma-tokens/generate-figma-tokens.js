@@ -28,7 +28,7 @@ const tag = require('../tokens/tag/base.json');
 const fs = require('fs')
 let tokenWarnings = []
 
-const RepairMissingType = (key, obj, type="not set") => {
+const RepairMissingType = (key, obj, type="not-set") => {
     obj.type = type;
     console.log('💩 \u001b[' + 33 + 'm' + 'no type specified for '+ key + '\u001b[0m')
     console.log('   \u001b[' + 33 + 'm' + 'consider adding "type": "'+ type +'"'+ '\u001b[0m')
@@ -67,39 +67,25 @@ const lintTokens = (obj) => {
                     break;
                 case "font-family":
                     !obj[key].type ? RepairMissingType(key, obj[key], "fontFamilies"): null;
-                    // obj[key].type = "fontFamilies"
-                    // warmMissingType(key, obj[key].type);
                     break;
                 case "font-size":
                 case "text-size":
                     !obj[key].type ? RepairMissingType(key, obj[key], "fontSizes"): null;
-                    // obj[key].type = "fontSizes"
-                    // warmMissingType(key, obj[key].type);
                     break;
                 case "font-style":
                     !obj[key].type ? RepairMissingType(key, obj[key], "fontStyle"): null;
-                    // obj[key].type = "fontStyle"
-                    // warmMissingType(key, obj[key].type);
                     break;
                 case "font-weight":
                     !obj[key].type ? RepairMissingType(key, obj[key], "fontWeights"): null;
-                    // obj[key].type = "fontWeights"
-                    // warmMissingType(key, obj[key].type);
                     break;
                 case "line-height":
                     !obj[key].type ? RepairMissingType(key, obj[key], "lineHeights"): null;
-                    // obj[key].type = "lineHeights"
-                    // warmMissingType(key, obj[key].type);
                     break;
                 case "opacity":
                     !obj[key].type ? RepairMissingType(key, obj[key], "opacity"): null;
-                    // obj[key].type = "opacity"
-                    // warmMissingType(key, obj[key].type);
                     break;
                 case "size":
                     !obj[key].type ? RepairMissingType(key, obj[key], "sizing"): null;
-                    // obj[key].type = "sizing"
-                    // warmMissingType(key, obj[key].type);
                     break;
                 case "space":
                 case "padding-left":
@@ -113,8 +99,6 @@ const lintTokens = (obj) => {
                 case "padding":
                 case "margin":
                     !obj[key].type ? RepairMissingType(key, obj[key], "spacing"): null;
-                    // obj[key].type = "spacing"
-                    // warmMissingType(key, obj[key].type);
                     break;
                 default:
                     break;
