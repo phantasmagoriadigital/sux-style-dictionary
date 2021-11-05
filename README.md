@@ -2,6 +2,11 @@
 
 Style Dictionary is a build tool to generate design tokens across platforms and for use in Figma.
 
+These tokens are part of the Substrate Design System:
+- [Storybook](https://sb.nextds.design)
+- [Design System Docs](https://docs.nextds.design)
+- [Stencil Web Components Git Repo](https://github.com/phantasmagoriadigital/components)
+
 ## Automatically generate separate build files matching categories and components
 
 This config of Style Dictionary generates a 1:1 relationship between build files and token categories.
@@ -12,39 +17,33 @@ The use cases:
 - Separate component files (button.css, input.css, etc)
 - Tree shaking (only import what you need)
 
-#### Running the example
+## Running the example
 
 First of all, set up the required dependencies running the command `npm install` in your local CLI environment.
 
 At this point, you can run `npm run build`. This command will generate the output file in the `build` folder. Currently the build process exprects style dictionary to be in the same parent directory as the components repository where the stencil components live as they are exported to
 `/components/src/assets/tokens` directory.
 
-### Token Structure
+### Exporting for Figma tokens
 
-📦tokens
- ┣ 📂border-radius
- ┃ ┗ 📜base.json
- ┣ 📂border-width
- ┃ ┗ 📜base.json
- ┣ 📂button
- ┃ ┗ 📜base.json
- ┣ 📂color
- ┃ ┗ 📜base.json
- ┣ 📂font-family
- ┃ ┗ 📜base.json
- ┣ 📂font-size
- ┃ ┗ 📜base.json
- ┣ 📂font-weight
- ┃ ┗ 📜base.json
- ┣ 📂opacity
- ┃ ┗ 📜base.json
- ┣ 📂size
- ┃ ┗ 📜base.js
- ┣ 📂space
- ┃ ┗ 📜base.js
- ┗ 📜index.js
+```bash
+npm run build-figma-tokens
+```
 
-#### How does it work
+After this, tokens will be available in the `figma-tokens/figma-tokens.json` file.
+
+If you use jsonbin.io for your tokens, you can use this script to push tokens:
+
+```postman
+curl    --header "Content-Type: application/json" \
+        --header "secret-key: [your-secret-key-here] " \
+        --request PUT \
+        --data-binary "@figma-tokens.json" \
+        https://api.jsonbin.io/b/[your-bin-id-here]
+```
+
+
+### How does it work
 
 The "build" command processes the JSON files in the `tokens` folder. The `index.js` file adds each folder, allowing you to map through them in `config.js`. The script goes through each folder and generates a file for each folder and populates it with tokens that match the filter.
 
@@ -72,7 +71,7 @@ The "build" command processes the JSON files in the `tokens` folder. The `index.
 
 Because the folder name matches the category, the output would automatically generate separate `color` and `size` files.
 
-#### What to look at
+### What to look at
 
 Open the `config.js` file and see how the script first looks within the `tokens` directory to map through each folder. The destination then outputs a file that would match the name, and fill that file with the tokens that match the filter criteria.
 

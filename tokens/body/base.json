@@ -1,37 +1,46 @@
 {
   "body": {
     "serif": {
-      "font-family": { "value": "{font-family.serif.value}" }
+      "font-family": {
+        "value": "{font-family.serif.value}",
+        "type": "fontFamilies"
+      }
     },
     "sans-serif": {
-      "font-family": { "value": "{font-family.sans-serif.value}" }
+      "font-family": {
+        "value": "{font-family.sans-serif.value}",
+        "type": "fontFamilies"
+      }
     },
     "mono": {
-      "font-family": { "value": "{font-family.mono.value}" }
+      "font-family": {
+        "value": "{font-family.mono.value}",
+        "type": "fontFamilies"
+      }
     },
     "xxxl": {
-      "text-size": { "value": "{font-size.8.value}" }
+      "text-size": { "value": "{font-size.8.value}", "type": "fontSizes" }
     },
     "xxl": {
-      "text-size": { "value": "{font-size.7.value}" }
+      "text-size": { "value": "{font-size.7.value}", "type": "fontSizes" }
     },
     "xl": {
-      "text-size": { "value": "{font-size.6.value}" }
+      "text-size": { "value": "{font-size.6.value}", "type": "fontSizes" }
     },
     "l": {
-      "text-size": { "value": "{font-size.5.value}" }
+      "text-size": { "value": "{font-size.5.value}", "type": "fontSizes" }
     },
     "m": {
-      "text-size": { "value": "{font-size.4.value}" }
+      "text-size": { "value": "{font-size.4.value}", "type": "fontSizes" }
     },
     "s": {
-      "text-size": { "value": "{font-size.3.value}" }
+      "text-size": { "value": "{font-size.3.value}", "type": "fontSizes" }
     },
     "xs": {
-      "text-size": { "value": "{font-size.2.value}" }
+      "text-size": { "value": "{font-size.2.value}", "type": "fontSizes" }
     },
-    "line-height": { "value": "{line-height.2.value}" },
-    "strong": { "value": "{font-weight.bold.value}" },
-    "emphasized": { "value": "{font-style.italic.value}" }
+    "line-height": { "value": "{line-height.2.value}", "type": "lineHeights" },
+    "strong": { "value": "{font-weight.bold.value}", "type": "fontWeights" },
+    "emphasized": { "value": "{font-style.italic.value}", "type": "fontStyles" }
   }
 }

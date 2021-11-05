@@ -1,20 +1,26 @@
 {
   "code": {
-    "font-family": { "value": "{font-family.mono.value}" },
+    "font-family": { "value": "{font-family.mono.value}",
+      "type": "fontFamilies" },
     "xl": {
-      "text-size": { "value": "{font-size.6.value}" }
+      "text-size": { "value": "{font-size.6.value}",
+      "type": "fontSize" }
     },
     "l": {
-      "text-size": { "value": "{font-size.5.value}" }
+      "text-size": { "value": "{font-size.5.value}",
+      "type": "fontSize" }
     },
     "m": {
-      "text-size": { "value": "{font-size.4.value}" }
+      "text-size": { "value": "{font-size.4.value}",
+      "type": "fontSize" }
     },
     "s": {
-      "text-size": { "value": "{font-size.3.value}" }
+      "text-size": { "value": "{font-size.3.value}",
+      "type": "fontSize" }
     },
     "xs": {
-      "text-size": { "value": "{font-size.2.value}" }
+      "text-size": { "value": "{font-size.2.value}",
+      "type": "fontSize" }
     }
   }
 }

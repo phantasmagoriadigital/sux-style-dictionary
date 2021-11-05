@@ -1,16 +1,16 @@
 const StyleDictionary = require("style-dictionary");
 const tokens = require("./tokens");
 
-// Transform custom transform for spacing & border-width
+// Transform custom transform for spacing
 StyleDictionary.registerTransform({
   type: `value`,
   transitive: true,
   name: `space/px`,
   matcher: (token) => {
-    return token.attributes.category === `spacing` || token.attributes.category === `border-width`;
+    return token.attributes.category === `spacing`;
   },
   transformer: (token) => {
-    return `${token.original.value}px`;
+    return `${token}px`;
   }
 });
 
@@ -48,13 +48,13 @@ module.exports = {
   },
   source: ["tokens/**/*.@(json|js)"],
   platforms: {
-   
+  
     scss: {
-      transforms: ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/px", "space/px", "color/css"],
+      transforms: ["name/cti/kebab", "size/px", "space/px", "color/rgb"],
       buildPath: `build/scss/`,
       files: [
         {
-          destination: `/all/tokens.scss`,
+          destination: `build/scss/all/tokens.scss`,
           format: "scss/variables",
           options: {
             outputReferences: true, // new setting, if true will use variable references
@@ -63,11 +63,11 @@ module.exports = {
       ],
     },
     css: {
-      transforms: ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/px", "space/px", "color/css"],
+      transforms: ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/px", "color/css", "spacingTransform"],
       buildPath: `build/css/`,
       files: [
         {
-          destination: `all/tokens.css`,
+          destination: `build/scss/all/tokens.css`,
           format: "css/variables",
           options: {
             outputReferences: true, // new setting, if true will use variable references
@@ -77,7 +77,7 @@ module.exports = {
     },
     // Web output in scss partialformat
     "scss/category": {
-      transforms: ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/px", "space/px", "color/css"],
+      transformGroup: "scss",
       buildPath: `build/components/`,
       files: tokens.map((tokenCategory) => ({
         destination: `_${tokenCategory}.scss`,
@@ -92,19 +92,20 @@ module.exports = {
         },
       })),
     },
-    // "cjs/category": {
-    //   buildPath: "build/js3/",
-    //   transforms: ["size/px", "color/hex"],
-    //   files: [
-    //         {
-    //           destination: `allTokens.json`,
-    //           format: "json",
-    //           options: {
-    //             outputReferences: true, // new setting, if true will use variable references
-    //           },
-    //         },
-    //       ],
-    // },
+    "figma-tokens": {
+      buildPath: "build/js3/",
+      // transforms: ["size/px", "color/hex"],
+      transforms: ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/px", "color/css"],
+      files: [
+            {
+              destination: `allTokens.json`,
+              format: "json",
+              options: {
+                outputReferences: true, // new setting, if true will use variable references
+              },
+            },
+          ],
+    },
   },
 };
 

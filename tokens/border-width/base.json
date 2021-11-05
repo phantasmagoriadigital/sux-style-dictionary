@@ -1,16 +1,20 @@
 {
   "border-width": {
     "0": {
-      "value": "0px"
+      "value": "0",
+      "type": "borderWidth"
     },
     "1": {
-      "value": "1px"
+      "value": "1",
+      "type": "borderWidth"
     },
     "2": {
-      "value": "2px"
+      "value": "2",
+      "type": "borderWidth"
     },
     "3": {
-      "value": "4px"
+      "value": "4",
+      "type": "borderWidth"
     }
   }
 }
