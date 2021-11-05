@@ -1,0 +1,19 @@
+{
+  "radio": {
+    "border": {
+      "color": {
+        "value": "{color.status.success.value}"
+      }
+    },
+    "background": {
+      "color": {
+        "value": "{color.status.red.value}"
+      }
+    },
+    "label": {
+      "color": {
+        "value": "{color.status.success.value}"
+      }
+    }
+  }
+}

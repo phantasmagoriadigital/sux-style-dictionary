@@ -1,0 +1,31 @@
+{
+  "checkbox": {
+    "border": {
+      "color": {
+        "value": "{color.status.info.value}"
+      }
+    },
+    "label": {
+      "color": {
+        "value": "{color.status.info.value}"
+      }
+    },
+    "background": {
+      "color": {
+        "value": "{color.white.value}"
+      }
+    },
+    "checked": {
+      "color": {
+        "value": "{color.status.info.value}"
+      }
+    },
+    "hover": {
+      "border": {
+        "color": {
+          "value": "{color.status.info.value}"
+        }
+      }
+    }
+  }
+}

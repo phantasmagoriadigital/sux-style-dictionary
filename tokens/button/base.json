@@ -62,10 +62,10 @@
     },
     "extra-large": {
       "text-size": { "value": "{font-size.6.value}" },
-      "padding-left": { "value": "{space.200.value}" },
-      "padding-right": { "value": "{space.200.value}" },
-      "padding-top": { "value": "{space.250.value}" },
-      "padding-bottom": { "value": "{space.250.value}" }
+      "padding-left": { "value": "{space.250.value}" },
+      "padding-right": { "value": "{space.250.value}" },
+      "padding-top": { "value": "{space.200.value}" },
+      "padding-bottom": { "value": "{space.200.value}" }
     }
   }
 }
