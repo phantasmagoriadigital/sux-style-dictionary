@@ -12,7 +12,7 @@ const size = require('../tokens/size/base.js');
 const space = require('../tokens/space/base.js');
 
 // Semantic
-// 
+const semanticColor = require('../tokens/semantic/color/base.json');
 
 // components
 const button = require('../tokens/button/base.json');
@@ -139,6 +139,7 @@ const components = {
 }
 // Lint and attempt repair for tokens with missing types
 lintTokens(components);
+lintTokens(semanticColor);
 
 
 const baseTokens = {
@@ -156,7 +157,7 @@ const baseTokens = {
         ...space
     },
     "Semantic": {
-        // wip
+        ...semanticColor
     },
     ...components
 }

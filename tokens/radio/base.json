@@ -2,17 +2,62 @@
   "radio": {
     "border": {
       "color": {
-        "value": "{color.status.success.value}"
+        "value": "{color.status.info.value}"
       }
     },
     "background": {
       "color": {
-        "value": "{color.status.red.value}"
+        "value": "{color.white.value}"
       }
     },
     "label": {
       "color": {
-        "value": "{color.status.success.value}"
+        "value": "{color.neutral.800.value}"
+      },
+      "font-family": {
+        "value": "{font-family.sans-serif.value}"
+      }
+    },
+    "checked": {
+      "color": {
+        "value": "{color.status.info.value}"
+      },
+      "border": {
+        "color": {
+          "value": "{color.status.info.value}"
+        }
+      },
+      "background": {
+        "color": {
+          "value": "{color.white.value}"
+        }
+      },
+      "hover": {
+        "background": {
+          "color": {
+            "value": "{color.primary.dark-30.value}"
+          }
+        },
+        "border": {
+          "color": {
+            "value": "{color.primary.dark-30.value}"
+          }
+        }
+      }
+    },
+    "disabled": {
+      "color": {
+        "value": "{color.neutral.500.value}"
+      },
+      "border": {
+        "color": {
+          "value": "{color.neutral.500.value}"
+        }
+      },
+      "background": {
+        "color": {
+          "value": "{color.neutral.500.value}"
+        }
       }
     }
   }

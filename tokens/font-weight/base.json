@@ -1,20 +1,24 @@
 {
   "font-weight": {
     "semiBold": {
-      "value": "600",
-      "type": "fontWeights"
+      "value": "SemiBold",
+      "type": "fontWeights",
+      "default": "600"
     },
     "regular": {
-      "value": "400",
-      "type": "fontWeights"
+      "value": "Regular",
+      "type": "fontWeights",
+      "default": "400"
     },
     "light": {
-      "value": "300",
-      "type": "fontWeights"
+      "value": "Light",
+      "type": "fontWeights",
+      "default": "300"
     },
     "bold": {
-      "value": "700",
-      "type": "fontWeights"
+      "value": "Bold",
+      "type": "fontWeights",
+      "default": "700"
     }
   }
 }

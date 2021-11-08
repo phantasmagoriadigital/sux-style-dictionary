@@ -7,12 +7,25 @@ StyleDictionary.registerTransform({
   transitive: true,
   name: `space/px`,
   matcher: (token) => {
-    return token.attributes.category === `spacing` || token.attributes.category === `border-width`;
+    return token.attributes.category === `space` || token.attributes.category === `border-width`;
   },
   transformer: (token) => {
     return `${token.original.value}px`;
   }
-});
+}
+);
+StyleDictionary.registerTransform({
+  type: `value`,
+  transitive: true,
+  name: `font-weight/fallback`,
+  matcher: (token) => {
+    return token.attributes.category === `font-weight`;
+  },
+  transformer: (token) => {
+    return `${token.default}`;
+  }
+}
+);
 
 
 /**
@@ -50,11 +63,12 @@ module.exports = {
   platforms: {
    
     scss: {
-      transforms: ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/px", "space/px", "color/css"],
-      buildPath: `build/scss/`,
+      transforms: ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/px", "space/px", "color/css", "font-weight/fallback"],
+      // buildPath: `build/scss/`,
+      buildPath: `../components/src/assets/tokens/`,
       files: [
         {
-          destination: `/all/tokens.scss`,
+          destination: `/base/tokens.scss`,
           format: "scss/variables",
           options: {
             outputReferences: true, // new setting, if true will use variable references
@@ -63,8 +77,9 @@ module.exports = {
       ],
     },
     css: {
-      transforms: ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/px", "space/px", "color/css"],
-      buildPath: `build/css/`,
+      transforms: ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/px", "space/px", "color/css", "font-weight/fallback"],
+      // buildPath: `build/css/`,
+      buildPath: `../components/src/assets/tokens/css/`,
       files: [
         {
           destination: `all/tokens.css`,
@@ -78,7 +93,8 @@ module.exports = {
     // Web output in scss partialformat
     "scss/category": {
       transforms: ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/px", "space/px", "color/css"],
-      buildPath: `build/components/`,
+      // buildPath: `build/components/`,
+      buildPath: `../components/src/assets/tokens/components/`,
       files: tokens.map((tokenCategory) => ({
         destination: `_${tokenCategory}.scss`,
         format: "scss/variables",
@@ -92,6 +108,23 @@ module.exports = {
         },
       })),
     },
+    // "css/category": {
+    //   transforms: ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/px", "space/px", "color/css"],
+    //   // buildPath: `build/components/`,
+    //   buildPath: `../components/src/assets/tokens/css/components/`,
+    //   files: tokens.map((tokenCategory) => ({
+    //     destination: `_${tokenCategory}.css`,
+    //     format: "css/variables",
+    //     options: {
+    //       outputReferences: true, // new setting, if true will use variable references
+    //     },
+    //     filter: {
+    //       attributes: {
+    //         category: tokenCategory,
+    //       },
+    //     },
+    //   })),
+    // },
     // "cjs/category": {
     //   buildPath: "build/js3/",
     //   transforms: ["size/px", "color/hex"],

@@ -7,7 +7,11 @@
     },
     "label": {
       "color": {
-        "value": "{color.status.info.value}"
+        "value": "{color.neutral.900.value}"
+      },
+      "font-family": {
+        "value": "{font-family.sans-serif.value}",
+        "type": "fontFamilies"
       }
     },
     "background": {
@@ -23,7 +27,36 @@
     "hover": {
       "border": {
         "color": {
-          "value": "{color.status.info.value}"
+          "value": "{color.status.help.value}"
+        }
+      }
+    },
+    "error": {
+      "border": {
+        "color": {
+          "value": "{color.status.error.value}"
+        }
+      },
+      "checked": {
+        "color": {
+          "value": "{color.status.error.value}"
+        }
+      },
+      "label": {
+        "color": {
+          "value": "{color.status.error.value}"
+        }
+      }
+    },
+    "disabled": {
+      "label": {
+        "color": {
+          "value": "{color.neutral.500.value}"
+        }
+      },
+      "border": {
+        "color": {
+          "value": "{color.neutral.500.value}"
         }
       }
     }
