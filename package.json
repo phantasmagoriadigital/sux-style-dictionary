@@ -7,7 +7,8 @@
     "build": "style-dictionary build",
     "build-figma-tokens": "node figma-tokens/generate-figma-tokens.js      ",
     "clean": "rm -rf build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-figma-tokens-git": "node git/generate-figma-tokens.js"
   },
   "author": "",
   "license": "Apache-2.0",
