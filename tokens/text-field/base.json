@@ -64,6 +64,18 @@
         }
       }
     },
+    "disabled": {
+      "border": {
+        "color": {
+          "value": "{color.neutral.300.value}",
+          "type": "color"
+        }
+      },
+      "background-color": {
+        "value": "{color.neutral.300.value}",
+        "type": "color"
+      }
+    },
     "small": {
       "font-size": {
         "value": "{font-size.2.value}",

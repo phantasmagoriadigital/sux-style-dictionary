@@ -23,6 +23,7 @@ const fieldLabel = require('../tokens/field-label/base.json');
 const heading = require('../tokens/heading/base.json');
 const helpText = require('../tokens/help-text/base.json');
 const tag = require('../tokens/tag/base.json');
+const radio = require('../tokens/radio/base.json');
 
 // Storing the file
 const fs = require('fs')
@@ -128,6 +129,7 @@ const lintTokens = (obj) => {
 
 // Components to be added to the tokens file
 const components = {
+    "radio": {...radio},
     ...button,
     ...body,
     ...code,
