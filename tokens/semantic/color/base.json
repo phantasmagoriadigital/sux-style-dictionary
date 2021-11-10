@@ -308,6 +308,48 @@
             "type": "color"
           }
         }
+      },
+      "text": {
+        "body": {
+          "default": {
+            "value": "{color.grey.70.value}",
+            "type": "color"
+          },
+          "on-background": {
+            "value": "{color.neutrals.white.value}",
+            "type": "color"
+          }
+        },
+        "heading": {
+          "default": {
+            "value": "{color.neutrals.white.value}",
+            "type": "color"
+          },
+          "on-background": {
+            "value": "{color.neutrals.white.value}",
+            "type": "color"
+          }
+        },
+        "detail": {
+          "default": {
+            "value": "{color.grey.70.value}",
+            "type": "color"
+          },
+          "on-background": {
+            "value": "{color.neutrals.white.value}",
+            "type": "color"
+          }
+        },
+        "ui": {
+          "default": {
+            "value": "{color.grey.70.value}",
+            "type": "color"
+          },
+          "on-background": {
+            "value": "{color.neutrals.white.value}",
+            "type": "color"
+          }
+        }
       }
     }
   }
