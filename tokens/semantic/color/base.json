@@ -363,7 +363,7 @@
           "type": "color"
         },
         "dark": {
-          "value": "{color.60.value}",
+          "value": "{color.grey.60.value}",
           "type": "color"
         }
       },
@@ -377,7 +377,7 @@
           "type": "color"
         },
         "disable": {
-          "value": "{color.neutral.value}",
+          "value": "{color.grey.20.value}",
           "type": "color"
         }
       }

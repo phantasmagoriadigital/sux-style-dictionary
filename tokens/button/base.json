@@ -16,7 +16,7 @@
     "focus": {
       "ring": {
         "color": {
-          "value": "{semantic.color.info.default.border-color.value}"
+          "value": "{semantic.color.controls.info.default.border-color.value}"
         }
       }
     },
@@ -256,7 +256,7 @@
           "value": "{semantic.color.controls.negative.default.border-color.value}"
         },
         "icon-color": {
-          "value": "{semantic.contcolor.controls.negative.default.text-color.value}",
+          "value": "{semantic.color.controls.negative.default.text-color.value}",
           "type": "color"
         }
       },
