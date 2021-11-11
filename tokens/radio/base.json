@@ -8,7 +8,7 @@
       "unselected": {
         "border": {
           "color": {
-            "value": "{semantic.color.info.default.border-color.value}",
+            "value": "{semantic.color.controls.info.default.border-color.value}",
             "type": "color"
           },
           "width": {
@@ -27,7 +27,7 @@
       "selected": {
         "border": {
           "color": {
-            "value": "{semantic.color.info.default.border-color.value}",
+            "value": "{semantic.color.controls.info.default.border-color.value}",
             "type": "color"
           },
           "width": {
@@ -46,7 +46,7 @@
         "hover": {
             "border": {
               "color": {
-                "value": "{semantic.color.info.default.border-color.value}",
+                "value": "{semantic.color.controls.info.default.border-color.value}",
                 "type": "color"
               },
               "width": {
@@ -100,7 +100,7 @@
           }
         },
         "background-color": {
-          "value": "{semantic.color.info.default.border-color.value}",
+          "value": "{semantic.color.controls.info.default.border-color.value}",
           "type": "color"
         }
       },
@@ -117,7 +117,7 @@
         },
         "border": {
           "color": {
-            "value": "{semantic.color.info.default.border-color.value}",
+            "value": "{semantic.color.controls.info.default.border-color.value}",
             "type": "color"
           },
           "width": {
@@ -132,7 +132,7 @@
         "hover": {
           "border": {
             "color": {
-              "value": "{semantic.color.info.hover.border-color.value}",
+              "value": "{semantic.color.controls.info.hover.border-color.value}",
               "type": "color"
             },
             "width": {
