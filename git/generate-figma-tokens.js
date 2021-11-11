@@ -137,7 +137,7 @@ const components = {
     "fieldLabel":{...fieldLabel},
     "heading":{...heading},
     "helpText":{...helpText},
-    "tag":{...tag}
+    "🟢 tag":{...tag}
 }
 // Lint and attempt repair for tokens with missing types
 lintTokens(components);
