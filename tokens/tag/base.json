@@ -7,7 +7,7 @@
     "solid": {
       "info": {
         "background-color": {
-          "value": "{semantic.color.info.default.border-color.value}"
+          "value": "{semantic.color.controls.info.default.border-color.value}"
         },
         "text-color": {
           "value": "{color.neutrals.white.value}"
@@ -15,7 +15,7 @@
       },
       "success": {
         "background-color": {
-          "value": "{semantic.color.success.default.border-color.value}"
+          "value": "{semantic.color.controls.success.default.border-color.value}"
         },
         "text-color": {
           "value": "{color.neutrals.white.value}"
@@ -23,7 +23,7 @@
       },
       "warning": {
         "background-color": {
-          "value": "{semantic.color.warning.default.border-color.value}"
+          "value": "{semantic.color.controls.warning.default.border-color.value}"
         },
         "text-color": {
           "value": "{color.neutrals.white.value}"
@@ -31,7 +31,7 @@
       },
       "error": {
         "background-color": {
-          "value": "{semantic.color.negative.default.border-color.value}"
+          "value": "{semantic.color.controls.negative.default.border-color.value}"
         },
         "text-color": {
           "value": "{color.neutrals.white.value}"
@@ -39,7 +39,7 @@
       },
       "neutral": {
         "background-color": {
-          "value": "{semantic.color.neutral.default.border-color.value}"
+          "value": "{semantic.color.controls.neutral.default.border-color.value}"
         },
         "text-color": {
           "value": "{color.neutrals.white.value}"
@@ -49,52 +49,52 @@
     "inverted": {
       "info": {
         "background-color": {
-          "value": "{semantic.color.info.default.background-color.value}"
+          "value": "{semantic.color.controls.info.default.background-color.value}"
         },
         "text-color": {
-          "value": "{semantic.color.info.default.text-color.value}"
+          "value": "{semantic.color.controls.info.default.text-color.value}"
         }
       },
       "success": {
         "background-color": {
-          "value": "{semantic.color.success.default.background-color.value}"
+          "value": "{semantic.color.controls.success.default.background-color.value}"
         },
         "text-color": {
-          "value": "{semantic.color.success.default.text-color.value}"
+          "value": "{semantic.color.controls.success.default.text-color.value}"
         }
       },
       "warning": {
         "background-color": {
-          "value": "{semantic.color.warning.default.background-color.value}"
+          "value": "{semantic.color.controls.warning.default.background-color.value}"
         },
         "text-color": {
-          "value": "{semantic.color.warning.default.text-color.value}"
+          "value": "{semantic.color.controls.warning.default.text-color.value}"
         }
       },
       "error": {
         "background-color": {
-          "value": "{semantic.color.negative.default.background-color.value}"
+          "value": "{semantic.color.controls.negative.default.background-color.value}"
         },
         "text-color": {
-          "value": "{semantic.color.negative.default.text-color.value}"
+          "value": "{semantic.color.controls.negative.default.text-color.value}"
         }
       },
       "neutral": {
         "background-color": {
-          "value": "{semantic.color.neutral.default.background-color.value}"
+          "value": "{semantic.color.controls.neutral.default.background-color.value}"
         },
         "text-color": {
-          "value": "{semantic.color.negative.default.text-color.value}"
+          "value": "{semantic.color.controls.negative.default.text-color.value}"
         }
       }
     },
     "outlined": {
       "info": {
         "border-color": {
-          "value": "{semantic.color.info.default.border-color.value}"
+          "value": "{semantic.color.controls.info.default.border-color.value}"
         },
         "text-color": {
-          "value": "{semantic.color.info.default.text-color.value}"
+          "value": "{semantic.color.controls.info.default.text-color.value}"
         },
         "background-color": {
           "value": "{color.neutrals.transparent.value}"
@@ -102,10 +102,10 @@
       },
       "sucess": {
         "border-color": {
-          "value": "{semantic.color.success.default.border-color.value}"
+          "value": "{semantic.color.controls.success.default.border-color.value}"
         },
         "text-color": {
-          "value": "{semantic.color.success.default.text-color.value}"
+          "value": "{semantic.color.controls.success.default.text-color.value}"
         },
         "background-color": {
           "value": "{color.neutrals.transparent.value}"
@@ -113,10 +113,10 @@
       },
       "warning": {
         "border-color": {
-          "value": "{semantic.color.warning.default.border-color.value}"
+          "value": "{semantic.color.controls.warning.default.border-color.value}"
         },
         "text-color": {
-          "value": "{semantic.color.warning.default.text-color.value}"
+          "value": "{semantic.color.controls.warning.default.text-color.value}"
         },
         "background-color": {
           "value": "{color.neutrals.transparent.value}"
@@ -124,10 +124,10 @@
       },
       "error": {
         "border-color": {
-          "value": "{semantic.color.negative.default.border-color.value}"
+          "value": "{semantic.color.controls.negative.default.border-color.value}"
         },
         "text-color": {
-          "value": "{semantic.color.negative.default.text-color.value}"
+          "value": "{semantic.color.controls.negative.default.text-color.value}"
         },
         "background-color": {
           "value": "{color.neutrals.transparent.value}"
@@ -135,10 +135,10 @@
       },
       "neutral": {
         "border-color": {
-          "value": "{semantic.color.neutral.default.border-color.value}"
+          "value": "{semantic.color.controls.neutral.default.border-color.value}"
         },
         "text-color": {
-          "value": "{semantic.color.neutral.default.text-color.value}"
+          "value": "{semantic.color.controls.neutral.default.text-color.value}"
         },
         "background-color": {
           "value": "{color.neutrals.transparent.value}"
@@ -151,7 +151,7 @@
           "value": "{color.neutrals.transparent.value}"
         },
         "text-color": {
-          "value": "{semantic.color.info.default.text-color.value}"
+          "value": "{semantic.color.controls.info.default.text-color.value}"
         },
         "background-color": {
           "value": "{color.neutrals.transparent.value}"
@@ -162,7 +162,7 @@
           "value": "{color.neutrals.transparent.value}"
         },
         "text-color": {
-          "value": "{semantic.color.success.default.text-color.value}"
+          "value": "{semantic.color.controls.success.default.text-color.value}"
         },
         "background-color": {
           "value": "{color.neutrals.transparent.value}"
@@ -173,7 +173,7 @@
           "value": "{color.neutrals.transparent.value}"
         },
         "text-color": {
-          "value": "{semantic.color.warning.default.text-color.value}"
+          "value": "{semantic.color.controls.warning.default.text-color.value}"
         },
         "background-color": {
           "value": "{color.neutrals.transparent.value}"
@@ -184,7 +184,7 @@
           "value": "{color.neutrals.transparent.value}"
         },
         "text-color": {
-          "value": "{semantic.color.negative.default.text-color.value}"
+          "value": "{semantic.color.controls.negative.default.text-color.value}"
         },
         "background-color": {
           "value": "{color.neutrals.transparent.value}"
@@ -195,7 +195,7 @@
           "value": "{color.neutrals.transparent.value}"
         },
         "text-color": {
-          "value": "{semantic.color.neutral.default.text-color.value}"
+          "value": "{semantic.color.controls.neutral.default.text-color.value}"
         },
         "background-color": {
           "value": "{color.neutrals.transparent.value}"
