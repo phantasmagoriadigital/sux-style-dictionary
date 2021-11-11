@@ -25,19 +25,19 @@
     },
     "font-size": {
       "small": {
-        "value": "{font-size.2.value}",
+        "value": "{semantic.font-size.ui.small}",
         "type": "fontSizes"
       },
       "medium": {
-        "value": "{font-size.2.value}",
+        "value": "{semantic.font-size.ui.medium}",
         "type": "fontsize"
       },
       "large": {
-        "value": "{font-size.3.value}",
+        "value": "{semantic.font-size.ui.large}",
         "type": "fontSizes"
       },
       "extra-large": {
-        "value": "{font-size.4.value}",
+        "value": "{semantic.font-size.ui.extra-large}",
         "type": "fontSizes"
       }
     }
