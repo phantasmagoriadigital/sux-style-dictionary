@@ -8,7 +8,7 @@
       "unselected": {
         "border": {
           "color": {
-            "value": "{semantic.color.info.default.border-color.value}",
+            "value": "{semantic.color.controls.info.default.border-color.value}",
             "type": "color"
           },
           "width": {
@@ -21,13 +21,13 @@
           }
         },
         "background-color": {
-          "value": "{color.neutrals.white.value}","type": "color" 
+          "value": "{core.color.neutrals.white.value}","type": "color" 
         }
       },
       "selected": {
         "border": {
           "color": {
-            "value": "{semantic.color.info.default.border-color.value}",
+            "value": "{semantic.color.controls.info.default.border-color.value}",
             "type": "color"
           },
           "width": {
@@ -40,13 +40,13 @@
           }
         },
           "background-color": {
-            "value": "{color.neutrals.white.value}",
+            "value": "{core.color.neutrals.white.value}",
             "type": "color"
         },
         "hover": {
             "border": {
               "color": {
-                "value": "{semantic.color.info.default.border-color.value}",
+                "value": "{semantic.color.controls.info.default.border-color.value}",
                 "type": "color"
               },
               "width": {
@@ -59,7 +59,7 @@
               }
             },
               "background-color": {
-                "value": "{color.neutrals.white.value}",
+                "value": "{core.color.neutrals.white.value}",
                 "type": "color"
             }
         }
@@ -67,12 +67,12 @@
       "disabled": {
         "border": {
           "color": {
-            "value": "{color.grey.30.value}","type": "color"
+            "value": "{core.color.grey.30.value}","type": "color"
           }
         },
         "background": {
           "color": {
-            "value": "{color.grey.10.value}","type": "color"
+            "value": "{core.color.grey.10.value}","type": "color"
           }
         }
       }
@@ -87,7 +87,7 @@
       "unselected": {
         "border": {
           "color": {
-            "value": "{color.neutrals.transparent.value}",
+            "value": "{core.color.neutrals.transparent.value}",
             "type": "color"
           },
           "width": {
@@ -100,7 +100,7 @@
           }
         },
         "background-color": {
-          "value": "{semantic.color.info.default.border-color.value}",
+          "value": "{semantic.color.controls.info.default.border-color.value}",
           "type": "color"
         }
       },
@@ -112,12 +112,12 @@
           "value": "8px"
         },
         "background-color": {
-          "value": "{color.neutrals.white.value}",
+          "value": "{core.color.neutrals.white.value}",
           "type": "color"
         },
         "border": {
           "color": {
-            "value": "{semantic.color.info.default.border-color.value}",
+            "value": "{semantic.color.controls.info.default.border-color.value}",
             "type": "color"
           },
           "width": {
@@ -132,7 +132,7 @@
         "hover": {
           "border": {
             "color": {
-              "value": "{semantic.color.info.hover.border-color.value}",
+              "value": "{semantic.color.controls.info.hover.border-color.value}",
               "type": "color"
             },
             "width": {
@@ -145,7 +145,7 @@
             }
           },
           "background-color": {
-            "value": "{color.neutrals.white.value}",
+            "value": "{core.color.neutrals.white.value}",
             "type": "color"
           }
         }
@@ -153,7 +153,7 @@
     },
     "label": {
       "color": {
-        "value": "{color.neutral.800.value}",
+        "value": "{semantic.color.text.ui.default.value}",
         "type": "color"
       },
       "font-family": {
@@ -162,7 +162,7 @@
       },
       "disabled": {
         "color": {
-          "value": "{color.neutral.500.value}",
+          "value": "{semantic.color.text.ui.disabled.value}",
           "type": "color"
         }
       }

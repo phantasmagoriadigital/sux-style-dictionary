@@ -16,7 +16,7 @@
         "type": "color"
       },
       "disable": {
-        "value": "{color.neutral.500.value}",
+        "value": "{semantic.color.text.ui.disabled.value}",
         "type": "color"
       }
     },
@@ -25,19 +25,19 @@
     },
     "font-size": {
       "small": {
-        "value": "{semantic.font-size.ui.small}",
+        "value": "{semantic.font-size.ui.small.value}",
         "type": "fontSizes"
       },
       "medium": {
-        "value": "{semantic.font-size.ui.medium}",
+        "value": "{semantic.font-size.ui.medium.value}",
         "type": "fontsize"
       },
       "large": {
-        "value": "{semantic.font-size.ui.large}",
+        "value": "{semantic.font-size.ui.large.value}",
         "type": "fontSizes"
       },
       "extra-large": {
-        "value": "{semantic.font-size.ui.extra-large}",
+        "value": "{semantic.font-size.ui.extra-large.value}",
         "type": "fontSizes"
       }
     }

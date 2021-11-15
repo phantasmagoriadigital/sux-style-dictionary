@@ -12,7 +12,7 @@
     },
     "font-family": {
       "serif": {
-        "value": "{font-family.serif.value.color}",
+        "value": "{font-family.serif.value}",
         "type": "fontFamilies"
       },
       "sans-serif": {
