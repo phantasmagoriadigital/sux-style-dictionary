@@ -2,7 +2,7 @@
   "text-area": {
     "border": {
       "color": {
-        "value": "{color.neutral.800.value}",
+        "value": "{core.color.grey.60.value}",
         "type": "color"
       },
       "width": {
@@ -16,14 +16,14 @@
     },
     "placeholder": {
       "text-color": {
-        "value": "{color.neutral.500.value}",
+        "value": "{semantic.color.text.ui.disabled.value}",
         "type": "color"
       }
     },
     "focus": {
       "outline": {
         "color": {
-          "value": "{color.status.info.value}",
+          "value": "{semantic.color.form.selected.border-color.value}",
           "type": "color"
         },
         "width": {
@@ -39,7 +39,7 @@
     "error": {
       "border": {
         "color": {
-          "value": "{color.status.error.value}",
+          "value": "{semantic.color.form.negative.value}",
           "type": "color"
         },
         "width": {
@@ -51,7 +51,7 @@
     "hover": {
       "border": {
         "color": {
-          "value": "{color.status.info.value}",
+          "value": "{semantic.color.form.hover.border-color.value}",
           "type": "color"
         },
         "width": {

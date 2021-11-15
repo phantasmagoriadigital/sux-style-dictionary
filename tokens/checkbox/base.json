@@ -1,63 +1,131 @@
 {
   "checkbox": {
-    "border": {
-      "color": {
-        "value": "{color.status.info.value}"
-      }
-    },
     "label": {
-      "color": {
-        "value": "{color.neutral.900.value}"
-      },
       "font-family": {
         "value": "{font-family.sans-serif.value}",
         "type": "fontFamilies"
       }
     },
-    "background": {
-      "color": {
-        "value": "{color.white.value}"
-      }
-    },
-    "checked": {
-      "color": {
-        "value": "{color.status.info.value}"
-      }
-    },
-    "hover": {
-      "border": {
-        "color": {
-          "value": "{color.status.help.value}"
+    "unselected":{
+      "border-color": {
+        "value": "{semantic.color.form.unselected.border-color.value}",
+        "type": "color"
+      },
+      "background-color": {
+        "value": "{semantic.color.form.unselected.background-color.value}",
+        "type": "color"
+      },
+      "label-color": {
+          "value": "{semantic.color.text.ui.default.value}","type": "color"
+      },
+      "checkmark-color": {
+        "value": "{core.color.neutrals.transparent.value}",
+        "type": "color"
+      },
+      "hover": {
+        "border-color": {
+          "value": "{semantic.color.form.hover.border-color.value}",
+          "type": "color"
+        },
+        "background-color": {
+          "value": "{semantic.color.form.hover.background-color.value}",
+          "type": "color"
+        },
+        "checkmark-color": {
+          "value": "{core.color.neutrals.transparent.value}",
+          "type": "color"
         }
-      }
-    },
-    "error": {
-      "border": {
-        "color": {
-          "value": "{color.status.error.value}"
         }
       },
-      "checked": {
-        "color": {
-          "value": "{color.status.error.value}"
-        }
+    "selected": {
+      "border-color": {
+        "value": "{semantic.color.form.selected.border-color.value}",
+        "type": "color"
+      },
+      "background-color": {
+        "value": "{semantic.color.form.selected.background-color.value}",
+        "type": "color"
       },
       "label": {
         "color": {
-          "value": "{color.status.error.value}"
+          "value": "{semantic.color.text.ui.default.value}"
         }
+      },
+      "checkmark-color": {
+        "value": "{semantic.color.form.default.value}",
+        "type": "color"
+      },
+      "hover": {
+        "border-color": {
+          "value": "{semantic.color.form.hover.border-color.value}",
+          "type": "color"
+        },
+        "background-color": {
+          "value": "{semantic.color.form.hover.background-color.value}",
+          "type": "color"
+        },
+        "checkmark-color": {
+          "value": "{semantic.color.form.hover.background-color.value}",
+          "type": "color"
+        }
+        }
+    },
+    "indeterminate": {
+      "border-color": {
+        "value": "{semantic.color.form.selected.border-color.value}",
+        "type": "color"
+      },
+      "background-color": {
+        "value": "{semantic.color.form.selected.background-color.value}",
+        "type": "color"
+      },
+      "label": {
+        "color": {
+          "value": "{semantic.color.text.ui.default.value}","type": "color"
+        }
+      },
+      "checkmark-color": {
+        "value": "{semantic.color.form.default.value}",
+        "type": "color"
+      },
+      "hover": {
+        "border-color": {
+          "value": "{semantic.color.form.hover.border-color.value}",
+          "type": "color"
+        },
+        "background-color": {
+          "value": "{semantic.color.form.hover.background-color.value}",
+          "type": "color"
+        },
+        "checkmark-color": {
+          "value": "{semantic.color.form.hover.background-color.value}",
+          "type": "color"
+        }
+        }
+    },
+    "error": {
+      "border-color": {
+          "value": "{semantic.color.form.negative.value}","type": "color"
+      },
+      "checkmark-color": {
+        "color": {
+          "value": "{semantic.color.form.negative.value}","type": "color"
+        }
+      },
+      "label-color": {
+          "value": "{semantic.color.text.ui.negative.value}","type": "color"
       }
     },
     "disabled": {
       "label": {
         "color": {
-          "value": "{color.neutral.500.value}"
+          "value": "{semantic.color.form.disabled.value}",
+          "type": "color"
+
         }
       },
-      "border": {
-        "color": {
-          "value": "{color.neutral.500.value}"
-        }
+      "border-color": {
+          "value": "{semantic.color.form.disabled.value}","type": "color"
       }
     }
   }

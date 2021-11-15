@@ -6,13 +6,13 @@
     },
     "neutral": {
       "text-color": {
-        "value": "{color.neutral.800.value}",
+        "value": "{semantic.color.text.ui.default.value}",
         "type": "colors"
       }
     },
     "negative": {
       "text-color": {
-        "value": "{color.status.error.value}",
+        "value": "{semantic.color.text.ui.negative.value}",
         "type": "colors"
       }
     },
@@ -42,7 +42,7 @@
     },
     "disabled": {
       "text-color": {
-        "value": "{color.neutral.500.value}",
+        "value": "{semantic.color.text.ui.disabled.value}",
         "type": "colors"
       }
     }

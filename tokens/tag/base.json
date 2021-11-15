@@ -2,7 +2,7 @@
   "tag": {
     "font-family": { "value": "{font-family.sans-serif.value}" },
     "font-weight": { "value": "{font-weight.regular.value}" },
-    "text-color": { "value": "{color.white.value}", "type": "color" },
+    "text-color": { "value": "{core.color.neutrals.white.value}", "type": "color" },
     "border-radius": { "value": "{border-radius.2.value}" },
     "solid": {
       "info": {
@@ -10,7 +10,7 @@
           "value": "{semantic.color.controls.info.default.border-color.value}"
         },
         "text-color": {
-          "value": "{color.neutrals.white.value}"
+          "value": "{core.color.neutrals.white.value}"
         }
       },
       "success": {
@@ -18,7 +18,7 @@
           "value": "{semantic.color.controls.success.default.border-color.value}"
         },
         "text-color": {
-          "value": "{color.neutrals.white.value}"
+          "value": "{core.color.neutrals.white.value}"
         }
       },
       "warning": {
@@ -26,7 +26,7 @@
           "value": "{semantic.color.controls.warning.default.border-color.value}"
         },
         "text-color": {
-          "value": "{color.neutrals.white.value}"
+          "value": "{core.color.neutrals.white.value}"
         }
       },
       "error": {
@@ -34,7 +34,7 @@
           "value": "{semantic.color.controls.negative.default.border-color.value}"
         },
         "text-color": {
-          "value": "{color.neutrals.white.value}"
+          "value": "{core.color.neutrals.white.value}"
         }
       },
       "neutral": {
@@ -42,7 +42,7 @@
           "value": "{semantic.color.controls.neutral.default.border-color.value}"
         },
         "text-color": {
-          "value": "{color.neutrals.white.value}"
+          "value": "{core.color.neutrals.white.value}"
         }
       }
     },
@@ -97,7 +97,7 @@
           "value": "{semantic.color.controls.info.default.text-color.value}"
         },
         "background-color": {
-          "value": "{color.neutrals.transparent.value}"
+          "value": "{core.color.neutrals.transparent.value}"
         }
       },
       "sucess": {
@@ -108,7 +108,7 @@
           "value": "{semantic.color.controls.success.default.text-color.value}"
         },
         "background-color": {
-          "value": "{color.neutrals.transparent.value}"
+          "value": "{core.color.neutrals.transparent.value}"
         }
       },
       "warning": {
@@ -119,7 +119,7 @@
           "value": "{semantic.color.controls.warning.default.text-color.value}"
         },
         "background-color": {
-          "value": "{color.neutrals.transparent.value}"
+          "value": "{core.color.neutrals.transparent.value}"
         }
       },
       "error": {
@@ -130,7 +130,7 @@
           "value": "{semantic.color.controls.negative.default.text-color.value}"
         },
         "background-color": {
-          "value": "{color.neutrals.transparent.value}"
+          "value": "{core.color.neutrals.transparent.value}"
         }
       },
       "neutral": {
@@ -141,64 +141,64 @@
           "value": "{semantic.color.controls.neutral.default.text-color.value}"
         },
         "background-color": {
-          "value": "{color.neutrals.transparent.value}"
+          "value": "{core.color.neutrals.transparent.value}"
         }
       }
     },
     "borderless": {
       "info": {
         "border-color": {
-          "value": "{color.neutrals.transparent.value}"
+          "value": "{core.color.neutrals.transparent.value}"
         },
         "text-color": {
           "value": "{semantic.color.controls.info.default.text-color.value}"
         },
         "background-color": {
-          "value": "{color.neutrals.transparent.value}"
+          "value": "{core.color.neutrals.transparent.value}"
         }
       },
       "sucess": {
         "border-color": {
-          "value": "{color.neutrals.transparent.value}"
+          "value": "{core.color.neutrals.transparent.value}"
         },
         "text-color": {
           "value": "{semantic.color.controls.success.default.text-color.value}"
         },
         "background-color": {
-          "value": "{color.neutrals.transparent.value}"
+          "value": "{core.color.neutrals.transparent.value}"
         }
       },
       "warning": {
         "border-color": {
-          "value": "{color.neutrals.transparent.value}"
+          "value": "{core.color.neutrals.transparent.value}"
         },
         "text-color": {
           "value": "{semantic.color.controls.warning.default.text-color.value}"
         },
         "background-color": {
-          "value": "{color.neutrals.transparent.value}"
+          "value": "{core.color.neutrals.transparent.value}"
         }
       },
       "error": {
         "border-color": {
-          "value": "{color.neutrals.transparent.value}"
+          "value": "{core.color.neutrals.transparent.value}"
         },
         "text-color": {
           "value": "{semantic.color.controls.negative.default.text-color.value}"
         },
         "background-color": {
-          "value": "{color.neutrals.transparent.value}"
+          "value": "{core.color.neutrals.transparent.value}"
         }
       },
       "neutral": {
         "border-color": {
-          "value": "{color.neutrals.transparent.value}"
+          "value": "{core.color.neutrals.transparent.value}"
         },
         "text-color": {
           "value": "{semantic.color.controls.neutral.default.text-color.value}"
         },
         "background-color": {
-          "value": "{color.neutrals.transparent.value}"
+          "value": "{core.color.neutrals.transparent.value}"
         }
       }
     },

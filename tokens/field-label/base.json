@@ -16,7 +16,7 @@
         "type": "color"
       },
       "disable": {
-        "value": "{color.neutral.500.value}",
+        "value": "{semantic.color.text.ui.disabled.value}",
         "type": "color"
       }
     },
