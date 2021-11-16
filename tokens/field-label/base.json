@@ -1,10 +1,9 @@
 {
   "field-label": {
     "font-family": {
-      "serif": {
+      
         "value": "{font-family.sans-serif.value}",
         "type": "fontFamilies"
-      }
     },
     "font-color": {
       "default": {
