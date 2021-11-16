@@ -1,7 +1,7 @@
 // Import Base 
 const borderRadius = require('../tokens/border-radius/base');
 const borderWidth = require('../tokens/border-width/base.json');
-const color = require('../tokens/color/base.json');
+const color = require('../tokens/core/color/base.json');
 const fontFamily = require('../tokens/font-family/base.json');
 const fontSize = require('../tokens/font-size/base.json');
 const fontStyle = require('../tokens/font-style/base.json');
