@@ -1,0 +1,48 @@
+{
+    "rating": {
+        "unselected": {
+            "border-color": {
+                "value": "{color.grey.50.value}",
+                "type": "color"
+            },
+            "background-color": {
+                "value": "{color.grey.50.value}",
+                "type": "color"
+            },
+            "hover": {
+                "background-color": {
+                    "value": "{color.yellow.50.value}",
+                    "type": "color"
+                }
+            }
+        },
+        "selected": {
+            "border-color": {
+                "value": "{color.yellow.50.value}",
+                "type": "color"
+            },
+            "background-color": {
+                "value": "{color.yellow.50.value}",
+                "type": "color"
+            }
+        },
+        "small": {
+            "font-size": {
+                "value": "{font-size.2.value}",
+                "type": "fontSizes"
+            }
+        },
+        "medium": {
+            "font-size": {
+                "value": "{font-size.4.value}",
+                "type": "fontSizes"
+            }
+        },
+        "large": {
+            "font-size": {
+                "value": "{font-size.6.value}",
+                "type": "fontSizes"
+            }
+        }
+    }
+}
